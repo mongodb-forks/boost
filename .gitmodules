@@ -60,9 +60,9 @@
 	branch = .
 [submodule "log"]
 	path = libs/log
-	url = https://github.com/boostorg/log.git
+	url = https://github.com/mongodb-forks/boost-log.git
 	fetchRecurseSubmodules = on-demand
-	branch = .
+	branch = v1.88.0-mongo
 [submodule "interprocess"]
 	path = libs/interprocess
 	url = https://github.com/boostorg/interprocess.git
@@ -540,9 +540,9 @@
 	branch = .
 [submodule "multiprecision"]
 	path = libs/multiprecision
-	url = https://github.com/boostorg/multiprecision.git
+	url = https://github.com/mongodb-forks/boost-multiprecision.git
 	fetchRecurseSubmodules = on-demand
-	branch = .
+	branch = v1.88.0-mongo
 [submodule "lockfree"]
 	path = libs/lockfree
 	url = https://github.com/boostorg/lockfree.git
